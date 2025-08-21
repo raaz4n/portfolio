@@ -1,1 +1,1 @@
-My website.
+My website, developed with React
