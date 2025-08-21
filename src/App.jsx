@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className="google-sans tl">
-        <p>raaz4n</p>
+        <p>/raaz4n</p>
       </div>
       <div>
         <img className = "photo" src = {myPhoto} alt = "small cat can't press any keys on the keyboard"/>
