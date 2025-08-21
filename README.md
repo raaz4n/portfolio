@@ -1,1 +1,1 @@
-My own personal website which will include ways to contact me, blogs about my projects, and more. Still a work in progress.
+My own personal website which will include ways to contact me, blogs about my projects, links to my socials, and more. Still a work in progress.
