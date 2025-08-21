@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import myPhoto from './assets/small.jpg'
-import astroGif from './assets/astro.gif'
+import astromp4 from './assets/astro.mp4'
 import './App.css'
 
 function App() {
@@ -9,7 +9,9 @@ function App() {
   return (
     <>
       <div className="google-sans tl">
-        <img className = "tlgif" src = {astroGif} alt = "cool astronaut"/>
+        <video autoplay disablePictureInPicture loop muted playsInline className = "tlgif">
+          <source src = {astromp4} type="video/mp4"/>
+        </video>
         <p>/raaz4n</p>
       </div>
       <div>
