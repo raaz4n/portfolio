@@ -13,25 +13,23 @@
 }
 
 .tl {
-  position: absolute;
-  top: 0;
   left: 50px;
-  padding: 1em;
   font-size: 40px;
-  display: flex;
-  align-items: center;
   gap: 10px;
 }
 
-.sections {
+.header {
   position: absolute;
   top: 0;
-  right: 50px;
-  padding: 1em;
-  font-size: 20px;
-
   display: flex;
   align-items: center;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+.sections {
+  right: 50px;
+  font-size: 20px;
   gap: 25px;
 }
 
