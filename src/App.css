@@ -31,6 +31,8 @@
   left: 50px;
   padding: 1em;
   font-size: 40px;
+  display: flex;
+  gap: 1em;
 }
 
 .tlgif{
