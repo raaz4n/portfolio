@@ -1,1 +1,1 @@
-My website, developed with React
+My own personal website which will include ways to contact me, blogs about my projects, and more.
