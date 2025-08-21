@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import myPhoto from './assets/small.jpg'
+import astroGif from './assets/astro.gif'
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <div className="google-sans tl">
+        <img className = "tlgif" src = {astroGif} alt = "cool astronaut"/>
         <p>/raaz4n</p>
       </div>
       <div>
