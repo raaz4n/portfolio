@@ -7,7 +7,7 @@ function App() {
   console.log(`count is ${count}`)
   return (
     <div>
-      <img src = {myPhoto} alt = "small cat can't press any keys on the keyboard"/>
+      <img className = "photo" src = {myPhoto} alt = "small cat can't press any keys on the keyboard"/>
     </div>
   )
 }
