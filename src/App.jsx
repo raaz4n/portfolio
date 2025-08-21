@@ -5,7 +5,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <div className = "header">
+      <header className = "header">
         <div className = "google-sans tl">
           <video autoPlay loop muted playsInline className = "tlgif">
             <source src = {astromp4} type="video/mp4"/>
@@ -17,7 +17,7 @@ function App() {
           <a href="">contact</a>
           <a href="">projects</a>
         </div>
-      </div>
+      </header>
       <div>
         <img className = "photo" src = {myPhoto} alt = "small cat can't press any keys on the keyboard"/>
       </div>
