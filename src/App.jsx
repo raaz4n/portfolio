@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import myPhoto from './assets/small.png'
+import myPhoto from './assets/small.jpg'
 import './App.css'
 
 function App() {
