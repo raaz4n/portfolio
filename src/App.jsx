@@ -7,7 +7,7 @@ function App() {
   console.log(`count is ${count}`)
   return (
     <>
-      <div class="tl">
+      <div className="google-sans tl">
         <p>raaz4n</p>
       </div>
       <div>
