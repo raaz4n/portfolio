@@ -15,7 +15,9 @@ function App() {
         <p>/raaz4n</p>
       </div>
       <div className = "sections">
-        About Contact Projects
+        <a href="">about</a>
+        <a href="">contact</a>
+        <a href="">projects</a>
       </div>
       <div>
         <img className = "photo" src = {myPhoto} alt = "small cat can't press any keys on the keyboard"/>
