@@ -1,11 +1,8 @@
-import { useState } from 'react'
 import myPhoto from './assets/small.jpg'
 import astromp4 from './assets/astro.mp4'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-  console.log(`count is ${count}`)
   return (
     <>
       <div className = "header">
