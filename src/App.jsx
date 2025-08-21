@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import myPhoto from './assets/small.png'
 import './App.css'
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
   console.log(`count is ${count}`)
   return (
     <div>
-      <p>hi</p>
+      <img src = {myPhoto} alt = "small cat can't press any keys on the keyboard"/>
     </div>
   )
 }
