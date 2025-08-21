@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div class="tl">
-        <p>Title</p>
+        <p>raaz4n</p>
       </div>
       <div>
         <img className = "photo" src = {myPhoto} alt = "small cat can't press any keys on the keyboard"/>
