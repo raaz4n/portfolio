@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="google-sans tl">
-        <video autoplay disablePictureInPicture loop muted playsInline className = "tlgif">
+        <video autoPlay loop muted playsInline className = "tlgif">
           <source src = {astromp4} type="video/mp4"/>
         </video>
         <p>/raaz4n</p>
