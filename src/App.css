@@ -5,19 +5,6 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
 .google-sans {
   font-family: "Google Sans Code", monospace;
   font-optical-sizing: auto;
@@ -33,27 +20,25 @@
   font-size: 40px;
   display: flex;
   align-items: center;
-  gap: 1em;
+  gap: 10px;
+}
+
+.sections {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  padding: 1em;
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  text-decoration: underline;
 }
 
 .tlgif{
   height: 50px;
   width: 50px;
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
 }
 
 .photo{

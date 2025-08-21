@@ -8,11 +8,14 @@ function App() {
   console.log(`count is ${count}`)
   return (
     <>
-      <div className="google-sans tl">
+      <div className = "google-sans tl">
         <video autoPlay loop muted playsInline className = "tlgif">
           <source src = {astromp4} type="video/mp4"/>
         </video>
         <p>/raaz4n</p>
+      </div>
+      <div className = "sections">
+        About Contact Projects
       </div>
       <div>
         <img className = "photo" src = {myPhoto} alt = "small cat can't press any keys on the keyboard"/>
