@@ -1,5 +1,6 @@
 import myPhoto from './assets/small.jpg'
 import astromp4 from './assets/astro.mp4'
+import linkedIn from './assets/github.png'
 import './App.css'
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
             <source src = {astromp4} type="video/mp4"/>
           </video>
           <p>/raaz4n</p>
+          <a href = "https://www.linkedin.com/in/raazan-doski-701a40257/">
+            <img src = {linkedIn} width = "50"/>
+          </a>
         </div>
         <div className = "sections">
           <a href="">about</a>
