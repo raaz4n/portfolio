@@ -1,7 +1,9 @@
 import myPhoto from './assets/small.jpg'
 import astromp4 from './assets/astro.mp4'
-import linkedIn from './assets/linkedin.svg'
-import gitHub from './assets/github.svg'
+import linkedInLight from './assets/linkedinlight.svg'
+import linkedInDark from './assets/linkedindark.svg'
+import gitHubLight from './assets/githublight.svg'
+import gitHubDark from './assets/githubdark.svg'
 import './App.css'
 
 function App() {
@@ -13,14 +15,16 @@ function App() {
             <source src = {astromp4} type="video/mp4"/>
           </video>
           <p>/raaz4n</p>
-        </div>
-        <div>
-          <a href = "https://www.linkedin.com/in/raazan-doski-701a40257/" target = "_blank" rel = "nofollow norefferer">
-            <img src = {linkedIn} width = "50" alt = "LinkedIn page"/>
-          </a>
-          <a href = "https://github.com/raaz4n" target = "_blank" rel = "nofollow noreferrer">
-            <img src = {gitHub} width = "50" alt = "GitHub page"/>
-          </a>
+          <div>
+            <a href = "https://www.linkedin.com/in/raazan-doski-701a40257/" target = "_blank" rel = "nofollow norefferer">
+              <img src = {linkedInLight} alt = "LinkedIn logo" className = "logo lightMode"/>
+              <img src = {linkedInDark} alt = "LinkedIn logo" className = "logo darkMode"/>
+            </a>
+            <a href = "https://github.com/raaz4n" target = "_blank" rel = "nofollow noreferrer">
+              <img src = {gitHubLight} alt = "GitHub logo" className = "logo lightMode"/>
+              <img src = {gitHubDark} alt = "GitHub logo" className = "logo darkMode"/>
+            </a>
+          </div>
         </div>
         <div className = "sections">
           <a href="">home</a>

@@ -39,6 +39,32 @@
   padding: 3em;
 }
 
+.logo {
+  height: 50px;
+  width: 50px;
+  margin: 25px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .darkMode {
+    display: none;
+  }
+
+  .lightMode {
+    display: inline;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .darkMode {
+    display: inline;
+  }
+
+  .lightMode {
+    display: none;
+  }
+}
+
 .tlgif{
   height: 50px;
   width: 50px;
