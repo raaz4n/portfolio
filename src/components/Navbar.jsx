@@ -27,16 +27,16 @@ export function Navbar() {
             </div>
             <div className = "sections">
                 <Link to="/">
-                    <button className = "txtColor">home</button>
+                    <button className = "txtColor google-sans">home</button>
                 </Link>
                 <Link to="/about">
-                    <button className = "txtColor">about</button>
+                    <button className = "txtColor google-sans">about</button>
                 </Link>
                 <Link to="/contact">
-                    <button className = "txtColor">contact</button>
+                    <button className = "txtColor google-sans">contact</button>
                 </Link>
                 <Link to="/projects">
-                    <button className = "txtColor">projects</button>
+                    <button className = "txtColor google-sans">projects</button>
                 </Link>
             </div>
         </header>

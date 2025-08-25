@@ -31,6 +31,24 @@
   justify-content: space-between;
 }
 
+.pagetitle {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  right: 0px;
+  font-size: 15px;
+  color:#ffcb0f;
+}
+
+.pagedesc {
+  position: absolute;
+  top: 300px;
+  left: 250px;
+  right: 250px;
+  align-items: center;
+  display: flex;
+}
+
 .sections {
   display: flex;
   font-size: 20px;
